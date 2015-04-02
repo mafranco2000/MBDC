@@ -1,0 +1,63 @@
+-ifndef(strings_hrl).
+-define(strings_hrl, true).
+
+-define(S_CONNECTING, "Connecting to the chat network...").
+-define(S_CONNECTED_EXT, "Connected to an external server.").
+-define(S_CONNECTED_SELF, "Connected and being server.").
+-define(S_DISCONNECTED, "Disconnected.").
+-define(S_NEWTOPIC, "Notification: new topic available").
+-define(S_NAME, "MQTT Chat").
+-define(S_TOPICS, "Topics").
+-define(S_CREATETOPIC, "Create new topic").
+-define(S_LISTMYTOPICS, "List my topics").
+-define(S_LISTALLTOPICS, "List available topics").
+-define(S_SUBSCRIBE, "Subscribe to topic").
+-define(S_UNSUBSCRIBE, "Unsubscribe from topic").
+-define(S_SETCURRENTTOPIC, "Set topic as current").
+-define(S_DEFAULTINPUT, "Type your message or a topic name here...").
+-define(S_SEND, "Send").
+-define(S_ANYBROKER, "anybroker").
+-define(S_IAMBROKER, "iambroker").
+
+-define(T_DEFAULT, "default").
+-define(T_CONNECTEDUSERS, "control/users/connected").
+-define(T_DISCONNECTEDUSERS, "control/users/disconnected").
+-define(T_NEWTOPIC, "control/topics/new").
+-define(T_EXISTINGTOPICS, "control/topics/existing").
+-define(T_LIVEBROKER, "control/broker").
+-define(T_CHANGEBROKER, "control/broker/change").
+-define(T_NEWBROKER, "control/broker/new").
+
+-define(A_FROMCONTROLLER, from_controller).
+-define(A_FROMNETWORK, from_network).
+-define(A_FROMLISTENER, from_listener).
+-define(A_FROMFRONTEND, from_frontend).
+-define(A_FROMCLIENTSHANDLER, from_clients_handler).
+-define(A_FROMPIPE, from_pipe).
+-define(A_FROMTIMER, from_timer).
+-define(A_FROMLIVENESSCHECKER, from_liveness_checker).
+-define(A_FOUNDBROKER, found_broker).
+-define(A_NOBROKER, no_broker).
+-define(A_ENABLEINPUT, enable_input).
+-define(A_DISABLEINPUT, disable_input).
+-define(A_CHANGESTATUS, change_status).
+-define(A_TRACECLIENT, trace_client).
+-define(A_DELETECLIENT, delete_client).
+-define(A_BEABROKER, be_a_broker).
+-define(A_ORPHAN, orphan).
+-define(A_PUBLISH, publish).
+-define(A_SUBSCRIBE, subscribe).
+-define(A_UNSUBSCRIBE, unsubscribe).
+-define(A_DISCONNECT, disconnect).
+-define(A_NEWMESSAGE, new_message).
+-define(A_NEWTOPIC, new_topic).
+-define(A_MYTOPICS, my_topics).
+-define(A_ALLTOPICS, all_topics).
+-define(A_ALIVE, alive).
+-define(A_TIMETOUPDATE, time_to_update).
+-define(A_KEEPALIVE, keep_alive).
+-define(A_TIMETOCHECK, time_to_check).
+-define(A_FROMPARENT, from_parent).
+-define(A_FROMLOCAL, from_local).
+
+-endif.
